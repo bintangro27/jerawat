@@ -1,0 +1,77 @@
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    padding: 10px 25px;
+}
+
+nav .brand {
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.lastname {
+    color: crimson;
+    padding-left: 4px;
+}
+
+nav .brand a {
+    text-decoration: none;
+    color: white
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    color: white
+}
+
+nav .menu {
+    list-style: none;
+}
+
+nav .menu li a:hover {
+    background-color: crimson;
+}
+
+body {
+    background-image: url(pexels-james-wheeler-1486974.jpg)
+}
+
+.tentangsaya {
+    color: #F4FFFE;
+    font-size: 50px;
+    text-align: center;
+    font-style: ariaL
+}
+
+.gambar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perkenalan {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.perkenalan {
+    background-image: url(pexels-abdullah-ghatasheh-1631677.jpg)
+}

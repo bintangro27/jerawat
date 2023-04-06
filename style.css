@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    padding: 10px 25px;
+}
+
+nav .brand {
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.lastname {
+    color: crimson;
+    padding-left: 4px;
+}
+
+nav .brand a {
+    text-decoration: none;
+    color: white
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    color: white
+}
+
+nav .menu {
+    list-style: none;
+}
+
+nav .menu li a:hover {
+    background-color: crimson;
+}
+
+body {
+    background-image: url(pexels-james-wheeler-1486974.jpg)
+}
+
+.test {
+    color: #F4FFFE;
+    font-size: 50px;
+    text-align: center;
+}
+
+.gambar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artikel1 {
+    text-align: center
+}
+
+.artikel1 {
+    background-image: url(pexels-madison-inouye-1831234.jpg)
+}
+
+.artikel2 {}
